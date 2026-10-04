@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Raphael Oliveira | Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1>Raphael Oliveira dos Santos</h1>
+    <p>Estudante de Sistemas de Informacao</p>
+  </header>
+
+  <nav>
+    <a href="#sobre">Sobre</a>
+    <a href="#experiencia">Experiencia</a>
+    <a href="#habilidades">Habilidades</a>
+    <a href="#contato">Contato</a>
+  </nav>
+
+  <main>
+    <section id="sobre" class="card">
+      <img src="foto.jpeg" alt="Foto de Raphael Oliveira">
+      <div>
+        <h2>Sobre mim</h2>
+        <p>
+          Ola! Sou Raphael, 23 anos, de Machado MG.
+          Estou cursando Sistemas de Informacao e busco uma oportunidade
+          na area de Tecnologia da Informacao, onde eu possa desenvolver
+          minhas habilidades tecnicas, adquirir experiencia pratica e
+          contribuir com solucoes eficientes para a empresa.
+        </p>
+        <a class="botao" href="https://github.com/raphaeloliveira506-ctrl" target="_blank">
+          Ver meu GitHub
+        </a>
+      </div>
+    </section>
+
+    <section id="experiencia" class="card">
+      <h2>Experiencia Profissional</h2>
+      <article>
+        <h3>Pintura residencial</h3>
+        <p>Atuacao com organizacao, responsabilidade e cumprimento de prazos.</p>
+      </article>
+      <article>
+        <h3>Herboflora - Operador de Maquinas</h3>
+        <p>Operacao de maquinas e atencao a processos, desenvolvendo disciplina e foco.</p>
+      </article>
+    </section>
+
+    <section id="habilidades" class="card">
+      <h2>Conhecimentos e Habilidades</h2>
+      <ul>
+        <li>Nocoes de informatica e pacote Office (Word, Excel, PowerPoint)</li>
+        <li>Interesse em programacao e tecnologia</li>
+        <li>Raciocinio logico e trabalho em equipe</li>
+        <li>Proatividade, organizacao e facilidade de aprendizado</li>
+      </ul>
+    </section>
+
+    <section id="contato" class="card">
+      <h2>Contato</h2>
+      <form id="form-contato">
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" required>
+
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="mensagem">Mensagem:</label>
+        <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+
+        <button type="submit">Enviar</button>
+      </form>
+      <p id="resposta"></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>c <span id="ano"></span> Raphael Oliveira dos Santos -
+      <a href="https://github.com/raphaeloliveira506-ctrl" target="_blank">GitHub</a> —
+      <a href="relatorio.html">Relatorio do projeto</a>
+    </p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

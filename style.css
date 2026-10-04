@@ -1,0 +1,127 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-color: #0d1f33;
+  color: #e8eef4;
+}
+
+header {
+  background-color: #f97316;
+  color: #0d1f33;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+nav {
+  background-color: #081527;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 12px;
+  flex-wrap: wrap;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #f97316;
+  text-decoration: underline;
+}
+
+main {
+  max-width: 900px;
+  margin: 30px auto;
+  padding: 0 20px;
+}
+
+.card {
+  background-color: #16283d;
+  border-radius: 8px;
+  padding: 25px;
+  margin-bottom: 25px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.4);
+}
+
+#sobre {
+  display: flex;
+  gap: 25px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+#sobre img {
+  width: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  height: 200px;
+}
+
+h2 {
+  color: #f97316;
+  margin-bottom: 12px;
+}
+
+h3 {
+  margin: 10px 0 5px;
+}
+
+ul {
+  margin-left: 20px;
+}
+
+.botao, button {
+  display: inline-block;
+  margin-top: 15px;
+  background-color: #f97316;
+  color: #0d1f33;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.botao:hover, button:hover {
+  background-color: #ea580c;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+input, textarea {
+  padding: 8px;
+  border: 1px solid #f97316;
+  border-radius: 5px;
+  background-color: #0d1f33;
+  color: #e8eef4;
+}
+
+#resposta {
+  margin-top: 12px;
+  color: #f97316;
+  font-weight: bold;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #081527;
+  color: #fff;
+}
+
+footer a {
+  color: #f97316;
+}
